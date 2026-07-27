@@ -1,2 +1,0 @@
-1.0.0 2026-07-27
-  - Initial release of the olfactory and visual fMRI dataset.  Includes behavioral similarity ratings, multiband multi-echo fMRI data, anatomical images, and BIDS event files from 47 participants.
