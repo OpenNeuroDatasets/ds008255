@@ -1,0 +1,7 @@
+1.0.2 2026-10-01
+  - Defaced all 47 T1w anatomical images using AFNI @afni_refacer_run (-mode_deface), which replaces the face and ears with zeros.
+  - The anatomical images were regenerated from the original DICOMs with dcm2niix v1.0.20260416 and verified byte-identical (SHA256) to the 1.0.1 originals before defacing, so voxel data outside the defaced region is unchanged.
+1.0.1 2026-08-12
+  - New version for download and public access
+1.0.0 2026-07-27
+  - Initial release of the olfactory and visual fMRI dataset.  Includes behavioral similarity ratings, multiband multi-echo fMRI data, anatomical images, and BIDS event files from 47 participants.
